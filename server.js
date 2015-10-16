@@ -11,7 +11,7 @@ io.on('connection', function(socket){
 
   socket.on('testing', function(test){
     io.emit('testing', test);
-    console.log('test actually fucking works');
+    console.log(test);
   });
   console.log('someone is on the port');
 });
