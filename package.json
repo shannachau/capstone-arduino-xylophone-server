@@ -1,0 +1,10 @@
+{
+  "name": "capstone-arduino-xylophone-server",
+  "version": "0.0.1",
+  "description": "Sever component for Arduino controlled xylophone",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:shannachau/capstone-arduino-xylophone-server.git"
+  }
+}
