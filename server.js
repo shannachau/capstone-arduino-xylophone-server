@@ -3,7 +3,9 @@ var io = require('socket.io')(app);
 var port = (process.env.PORT || 8081);
 
 io.on('connection', function(socket){
+  // listens for specific event
   socket.on('moveServo', function(servo){
+    // when event happens, server emits this event to all listeners
     io.emit('moveServo', servo);
     console.log('Moving ' + servo);
   });
